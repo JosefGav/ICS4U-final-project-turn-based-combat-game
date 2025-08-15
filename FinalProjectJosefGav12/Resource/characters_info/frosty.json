@@ -1,0 +1,9 @@
+{
+  "name": "frosty",
+  "attackRadius": 6,
+  "moveRadius": 4,
+  "damage": 15,
+  "health": 75,
+  "archetype": "THROWER",
+  "element": "ICE"
+}

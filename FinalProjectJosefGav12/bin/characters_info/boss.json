@@ -1,0 +1,9 @@
+{
+  "name": "boss",
+  "attackRadius": 1,
+  "moveRadius":10,
+  "damage": 30,
+  "health": 200,
+  "archetype": "MELEE",
+  "element": "EARTH"
+}

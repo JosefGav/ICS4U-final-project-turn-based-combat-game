@@ -1,0 +1,9 @@
+{
+  "name": "blaze",
+  "attackRadius": 5,
+  "moveRadius":4,
+  "damage": 13,
+  "health": 85,
+  "archetype": "THROWER",
+  "element": "FIRE"
+}

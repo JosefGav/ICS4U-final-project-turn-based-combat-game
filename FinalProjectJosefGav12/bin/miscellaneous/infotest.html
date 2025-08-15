@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <style>
+			body {
+                font-family: Arial, sans-serif;
+                color: #50849b; /* Light lavender */
+                background-color: #061543; /* Dark navy blue */
+                font-size: 14px;
+            }
+            h1 {
+                font-size: 24px;
+                color: #9b59b6; /* Deep purple */
+                text-align: center;
+                text-shadow: 0 0 10px #9b59b6, 0 0 20px #8e44ad;
+            }
+            .stat-label {
+                font-weight: bold;
+                color: #814271; /* Magical purple */
+            }
+            .stat-value {
+                color: #776bab; /* Glowing blue */
+                text-shadow: 0 0 5px #00d9ff, 0 0 10px #00d9ff;
+            }
+            .stat-row {
+                margin-bottom: 15px;
+            }
+            .health-bar {
+                background-color: #40184b; /* Dark purple */
+                border-radius: 10px;
+                width: 100px;
+                height: 20px;
+                box-shadow: 0 0 10px #9b59b6;
+            }
+            .health-fill {
+                background-color: #776bab; /* Glowing blue */
+                border-radius: 10px;
+                height: 100%%;
+            }
+            .stat-row {
+                margin-bottom: 10px;
+			                text-shadow: 0 0 5px #9b59b6, 0 0 10px #8e44ad;
+			            }
+        </style>
+    </head>
+    <body>
+        <h1>%s</h1>
+        <div class='stat-row'>
+            <span class='stat-label'>Health:</span>
+            <span class='stat-value'>%d / %d (%d%%)</span>
+            <div class='health-bar'><div class='health-fill' style='width: %d%%;'></div></div>
+        </div>
+        <div class='stat-row'>
+            <span class='stat-label'>Damage:</span> <span class='stat-value'>%d</span>
+        </div>
+        <div class='stat-row'>
+            <span class='stat-label'>Attack Radius:</span> <span class='stat-value'>%d</span>
+        </div>
+        <div class='stat-row'>
+            <span class='stat-label'>Movement Radius:</span> <span class='stat-value'>%d</span>
+        </div>
+        <div class='stat-row'>
+            <span class='stat-label'>Archetype:</span> <span class='stat-value'>%s</span>
+        </div>
+        <div class='stat-row'>
+            <span class='stat-label'>Element:</span> <span class='stat-value'>%s</span>
+        </div>
+    </body>
+</html>

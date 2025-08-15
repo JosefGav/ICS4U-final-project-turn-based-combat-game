@@ -1,0 +1,9 @@
+{
+  "name": "ded moroz",
+  "attackRadius": 1,
+  "moveRadius": 6,
+  "damage": 20,
+  "health": 125,
+  "archetype": "MELEE",
+  "element": "ICE"
+}

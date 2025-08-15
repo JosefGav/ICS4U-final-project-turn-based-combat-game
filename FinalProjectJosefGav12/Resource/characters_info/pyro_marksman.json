@@ -1,0 +1,9 @@
+{
+  "name": "pyro marksman",
+  "attackRadius": 8,
+  "moveRadius":3,
+  "damage": 15,
+  "health": 85,
+  "archetype": "SHOOTER",
+  "element": "FIRE"
+}

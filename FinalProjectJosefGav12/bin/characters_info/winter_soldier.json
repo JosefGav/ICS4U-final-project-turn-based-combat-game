@@ -1,0 +1,9 @@
+{
+  "name": "winter soldier",
+  "attackRadius": 5,
+  "moveRadius":4,
+  "damage": 15,
+  "health": 100,
+  "archetype": "SHOOTER",
+  "element": "ICE"
+}
