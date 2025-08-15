@@ -7,4 +7,4 @@ File -> Open Projects From File System -> Archive -> select the zip file
 ---
 
 to view the source code on github navigate:
-FinalProjectJosefGav12 > src
+FinalProjectJosefGav12 -> src
